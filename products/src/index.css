@@ -1,0 +1,71 @@
+
+            /* <div className='rating'>
+              <h2>Rating</h2>
+              <select value={selectedRating} onChange={e => setSelectedRating(e.target.value)}>
+                <option value="all">All</option>
+                {rating.map(rating => (
+                  <option key={rating} value={rating}>{rating.toFixed(1)}</option>
+                ))}
+              </select>
+            </div> */
+
+            
+/* 
+            
+            // Define state to store selected categories
+            const [selectedCategories, setSelectedCategories] = useState([]);
+            
+            // Modify handleCategoryFilter function
+            const handleCategoryFilter = (category) => {
+              // Check if the category is already selected
+              const isSelected = selectedCategories.includes(category);
+              
+              // If it's selected, remove it from the selected categories
+              if (isSelected) {
+                const updatedCategories = selectedCategories.filter(cat => cat !== category);
+                setSelectedCategories(updatedCategories);
+              } else {
+                // If it's not selected, add it to the selected categories
+                setSelectedCategories([...selectedCategories, category]);
+              }
+            };
+            
+            // Apply filters on sidebar options based on selectedCategories
+            const filteredProducts = products.filter(product =>
+              (selectedCategories.length === 0 || selectedCategories.includes(product.category)) &&
+              // Add other filters as needed
+            );
+             */
+
+
+
+
+
+/* 
+             <header className='header'>
+  <h1><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWqF4hEa9v3_S_P1b-jQqPMhXts3rn3ZYK1oXfizCIcg&s" alt="" /></h1>
+  <div>
+    {cartItems.length > 0 && (
+      <button className='cart-button' onClick={toggleCart}>
+        <span className='cart-count'>{cartItems.length}</span>
+      </button>
+    )}
+    {!showCart && cartItems.length === 0 && (
+      <button className='cart-button' onClick={toggleCart}>
+        <svg class="icon icon-cart" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" fill="none" className='svg-icon'>
+          <path fill="currentColor" fill-rule="evenodd" d="M20.5 6.5a4.75 4.75 0 00-4.75 4.75v.56h-3.16l-.77 11.6a5 5 0 004.99 5.34h7.38a5 5 0 004.99-5.33l-.77-11.6h-3.16v-.57A4.75 4.75 0 0020.5 6.5zm3.75 5.31v-.56a3.75 3.75 0 10-7.5 0v.56h7.5zm-7.5 1h7.5v.56a3.75 3.75 0 11-7.5 0v-.56zm-1 0v.56a4.75 4.75 0 109.5 0v-.56h2.22l.71 10.67a4 4 0 01-3.99 4.27h-7.38a4 4 0 01-4-4.27l.72-10.67h2.22z"></path>
+        </svg>
+      </button>
+    )}
+  </div>
+</header>
+
+
+
+
+
+ */
+
+
+
+             
